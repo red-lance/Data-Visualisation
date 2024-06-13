@@ -136,7 +136,6 @@ def load_file():
     with open(file_path, 'r') as file:
         lines = file.readlines()
         units_line = lines[1].strip().split(',')
-        print("Units line:", units_line)
 
     # Extract units for labeling
     units = units_line  
